@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.father{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    width: 350px;
+    height: 500px;
+    margin: 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;   
+}
+/* ****************************************************************************************************************************************** */
+.header{
+    height: 60px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-left {
+    width: 300px;
+    
+    display: flex;
+    ;
+}
+
+.icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icono-html{
+    font-size: 50px;
+    
+}
+
+
+.name {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.name1{
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+
+.header-right {
+    width: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* **************************************************************************************************************************************** */
+.image{
+    height:850px;
+    
+    
+    background-image: url("https://hablemosdeislas.com/wp-content/uploads/2018/06/isla-de-margarita-41.jpg")
+
+}
+/* ************************************************************************************************************************************** */
+
+.iconos {
+    height:30px;
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-left {
+    width: 150px;
+    display: flex;
+    
+    
+
+}
+.iconi{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icon-right {
+    width: 30px;
+}
+.icon-right:hover{
+    color: green;
+}
+
+
+
+
+/* *************************************************************************************************************************************** */
+.information {   
+    height:100% ;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+
