@@ -1,119 +1,115 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-.father{
+header{
     width: 100%;
-    height: 100vh;
-    background-color:black;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: honeydew;
+}
+body{
+    background-color:gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+
 .container {
-    width: 350px;
+    width: 600px;
     height: 500px;
-    margin: 0px;
+    margin: 10px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;   
+    border-radius: 2%;
 }
 /* ****************************************************************************************************************************************** */
 .header{
-    height: 60px;
+    height: 10%;
     
-    display: flex;
-    justify-content: space-between;
-    
-}
-.header-left {
-    width: 300px;
-    
-    display: flex;
-    ;
-}
-
-.icon{
-    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.icono-html{
-    font-size: 50px;
-    
-}
-
-
-.name {
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     
 }
-.name1{
-    margin-bottom: 5px;
-    padding-left: 20px;
+.header-left {
+    width: 50%;
+    
+    display: flex;
+    
 }
+
 
 
 .header-right {
-    width: 30px;
+    width: 10%;
     font-size: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 /* **************************************************************************************************************************************** */
-.image{
-    height:850px;
+.image{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://hablemosdeislas.com/wp-content/uploads/2018/06/isla-de-margarita-41.jpg")no-repeat center center;
+    background-size: 100% 100%;
     
-    
-    background-image: url("https://hablemosdeislas.com/wp-content/uploads/2018/06/isla-de-margarita-41.jpg")
 
 }
 /* ************************************************************************************************************************************** */
-
-.iconos {
-    height:30px;
-    padding: 10px 0px 0px 10px;
+.footer {
+    height: 15%;
     display: flex;
-    justify-content: space-between;
 }
-
-.icon-left {
-    width: 150px;
-    display: flex;
-    
-    
-
-}
-.iconi{
-    font-size: 20px;
-    margin-right: 10px;
-}
-.icon-right {
-    width: 30px;
-}
-.icon-right:hover{
-    color: green;
-}
-
-
-
 
 /* *************************************************************************************************************************************** */
-.information {   
-    height:100% ;
+.image1{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://sonaesierracms-v2.cdnpservers.net/wp-content/uploads/sites/38/2018/03/dia-mundial-medioambiente.jpg") no-repeat center center ;
+    background-size: 100% 100%;
     
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    
+
 }
+.image2{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://static.iris.net.co/sostenibilidad/upload/images/2019/5/5/44082_1.jpg") no-repeat center center ;
+    background-size: 100% 100%;
+    
+
+}
+.image3{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://dam.vanidades.com/wp-content/uploads/2020/04/%C2%A1Como-si-necesit%C3%A1ramos-m%C3%A1s-razones-para-amar-a-los-perritos-Seg%C3%BAn-investigadores-el-mejor-amigo-del-hombre-podr%C3%ADa-ayudar-a-detectar-el-coronavirus.-770x513.jpg") no-repeat center center ;
+    background-size: 100% 100%;
+    
+
+}
+.image4{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://www.nasa.gov/sites/default/files/thumbnails/image/2020_astronaut_candidates_spanish.jpg") no-repeat center center ;
+    background-size: 100% 100%;
+    
+
+}
+.image5{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url("https://www.cinemascomics.com/wp-content/uploads/2020/05/marvel-nasa.jpg") no-repeat center center ;
+    background-size: 100% 100%;
+    
+
+}
+
 
 
